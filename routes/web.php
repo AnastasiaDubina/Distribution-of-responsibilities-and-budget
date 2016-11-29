@@ -11,12 +11,11 @@
 |
 */
 
-Route::get('/', 'BaseController@getIndex');/* {
-    return view('welcome');
-});
-/*Route::get('test', function () {
-    return 'Hello world';
-});
-Route::get('user/{id}', function ($id) {
-    return 'User '.$id;
-})-> where (/*'name'=>[A-Za-z]+']['id'=>'[0-9]+']);*/
+Route::get('/', 'BaseController@getIndex');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+Route::post('/home', 'HomeController@postIndex');
+//default route - всегла последний!
+Route::get('/{id}', 'StaticController@getIndex');

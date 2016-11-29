@@ -1,4 +1,4 @@
-@extends ('layouts.main')
+@extends ('layouts.app')
 @section ('content')
-    <h1>Распределение обязанностей и бюджета компании</h1>
+ghjgjhghj
 @endsection

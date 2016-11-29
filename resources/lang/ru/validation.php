@@ -112,6 +112,14 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+	'project_name'=>'Название проекта',
+	'project_description'=>'Описание проекта',
+	'department_name'=>'Название отдела',
+	'work'=>'Обязанность',
+	'budget'=>'Бюджет',
+	'data'=>'Дата',
+	'e-mail'=>'e-mail'
+	]
 
 ];

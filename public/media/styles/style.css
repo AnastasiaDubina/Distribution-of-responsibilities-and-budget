@@ -1,1 +1,5 @@
-body {background:indianred; color:white;}
+body {
+   color:black;
+    background: url('../img/fony_176.jpg');
+    background-size:100%;
+}
